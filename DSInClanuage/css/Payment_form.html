@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+            <h1>Payment Form</h1>
+        <p>required fileds are followed by *</p>
+        <h2>contact In</h2>
+        <p>Name* : <input type="text" name="name" required></p>
+        <p>
+            <fieldset>
+                <legend>Gender*</legend>
+            male :<input type="radio" name="gender" id="male">
+            female : <input type="radio" name="gender" id="female">
+        </fieldset>
+        </p>
+        <p>address:<textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+        <p>Email*:<input type="email" name="email" id="email" required></p>
+        <p>pincode*: <input type="number" name="pincode" id="pincpde" required></p>
+        <p>contect no.*: <input type="number" name="number" id="number" required></p>
+        <p>blood group: <input type="text" name="text" id="text"></p>
+        <p>city:* <input type="text" name="text" id="text" required></p>
+        <h2>Payment Information</h2>
+        <p>card type:
+            <select name="card_type" id="card_type" >
+            <option value="">--select a card type--</option>
+            <option value="visa" id="visa">visa</option>
+            <option vlaue="rupay" id="rupay">rupay</option>
+            <option value="mastercard" id="mastercard">mastercard</option>
+            </select>
+        </p>
+        <p>card number*<input type="number" name="card number" id="card number" required></p>
+        <p>
+            expiration date:*  <input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p>
+            cvv* <input type="password" name="cvv" id="cvv" required>
+        </p>
+        <p>
+            <input type="submit" name="submit" id="submit">
+        </p>
+    </form>
+</body>
+</html>

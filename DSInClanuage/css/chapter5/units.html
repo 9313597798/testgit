@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <style>
+        .html{
+            font-size:45px;
+        }
+        .container{
+            font-size:14px;
+        }
+        .box{
+            display: inline-block;
+            height: 50vh;
+            width: 50vw;
+            /* font-size: 3em; */
+            background-color: blueviolet;
+            /* font-size: 45px -> if we apply this condition and don't get any change ; */
+            /* here em means 3*4(size of the parent element) times size */
+        }
+        .box1{
+            display: inline-block;
+            height: 50vh;
+            width: 50vw;
+            background-color: brown;
+            /* font-size: 3rem; */
+            /* here it returns the html size(by default size that is 16px)*3  */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This is my bag</p>
+        <div class="box">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nobis labore consectetur enim, facere consequuntur optio nisi laboriosam sunt culpa alias doloremque similique sed reiciendis excepturi, nulla dignissimos fugit error?
+        </div><div class="box1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum porro magnam, perferendis nobis incidunt exercitationem autem dignissimos hic fuga totam tenetur voluptatem modi nulla, deserunt pariatur, laudantium id praesentium non?</div>
+        
+            
+        
+    </div>
+</body>
+</html>

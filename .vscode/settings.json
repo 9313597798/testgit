@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "fahrenheittocalsius": "c",
+        "ctype.h": "c",
+        "XYZ.C": "cpp",
+        "iterator": "c",
+        "xutility": "c",
+        "conio.h": "c",
+        "xstring": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "LINKEDLIST.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
